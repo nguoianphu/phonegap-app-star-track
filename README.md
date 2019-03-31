@@ -1,5 +1,7 @@
 # Star Track
 
+[![Build Status](https://travis-ci.org/nguoianphu/phonegap-app-star-track.svg?branch=master)](https://travis-ci.org/nguoianphu/phonegap-app-star-track)
+
 A PhoneGap example app using [Framework7 HTML Framework](http://framework7.io/) and the [iTunes Search API](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/).
 
 ## Previewing the app
