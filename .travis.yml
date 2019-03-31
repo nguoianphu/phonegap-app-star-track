@@ -57,6 +57,7 @@ before_install:
 - echo -e "\n84831b9409646a918e30573bab4c9c91346d8abd" > "$ANDROID_HOME/licenses/android-sdk-preview-license"
 - yes | sdkmanager "platforms;android-27"
 - ls -la
+- chmod +x build-android.sh
 script:
 - if [[ -d www && "$TRAVIS_OS_NAME" == "linux" ]]; then ./build-android.sh ; fi
 before_deploy:
